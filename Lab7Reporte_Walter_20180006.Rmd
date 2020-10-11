@@ -75,7 +75,7 @@ names(tarifario)[1] <- "Poste_ID_altura"
 
 # Pérdidas en Mantenimiento/Reparación
 Si tienen preocupación en cuánto pueden perder en mantenimiento y reparación, habría que enfocarnos en los camiones. Los camiones resultarían la unidad más cara si hablaramos de costos de reparación o mantenimiento. Con la información que nos proporcionaron, vemos que los gastos de depreciación son mayores en los pickups que en los camiones y se puede deber a dos factores. El primero, existe la posiblidad que tengan más unidades de pickups que de camiones y motos. El segundo factor, se debe al número de viajes, que para los pickups fueron un total de 195,733 (camiones 62,267, motos 5,725). Esto resulta directamente en un mayor gasto de depreciación y mantenimiento para los pickups. Por la naturaleza de la industria que se encuentran, no recomendamos ni la compra de unidades nuevas ni la venta de las actuales. Tienen un volumen de ventas constante Simplemente recomendamos que las unidades de transporte actuales sean de marcas asiáticas, ya que los respuestos y mantenimiento de las mismas resultan más económicos que de marcas europeas o de Estados Unidos. 
-# Análisis 80/20
+
 ```{r cache=TRUE, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE}
 pareto <- tarifario %>%
         mutate(
